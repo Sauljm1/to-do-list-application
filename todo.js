@@ -1,9 +1,31 @@
 console.log('My code is running')
-let toDoList = [];
-function addTaskToList(newTask, list) {
-    console.log(list.concat(newTask))
-    return list.concat(newTask) 
+var toDoList = ["task 1", "task 2"];
+
+
+let btn = document.querySelector('#buttonAdd');
+let myList = document.getElementById('list');
+ 
+
+
+toDoList.forEach((item)=>{
+  let myList = document.getElementById('list'); 
+  let li = document.createElement("li");
+  li.innerText = item;
+  myList.appendChild(li);
+})
+
+function addtask() ->{
+    toDoList.forEach((item)
+
+
+
+
+
 }
 
-// console.log(toDoList)
-// toDoList = addTaskToList("say goodbuy", toDoList)
+
+
+
+
+
+
