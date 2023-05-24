@@ -8,3 +8,8 @@ body {background-color: coral;}
     display: flex;
     justify-content: center;
   }
+
+  #list {
+    
+    align-content: center;
+  }
