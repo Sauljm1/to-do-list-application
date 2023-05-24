@@ -1,12 +1,12 @@
-h1{
+#title{
     color: purple
+    text-align: center
 }
 body {background-color: coral;}
-#header {
+#taskList {
     border: 0.05em solid red;
     width:100%;
-    display: flex;
-    justify-content: center;
+
   }
 
   #list {
